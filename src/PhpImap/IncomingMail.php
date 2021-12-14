@@ -34,12 +34,6 @@ class IncomingMail extends IncomingMailHeader
      */
     protected $dataInfo = [[], []];
 
-    /** @var string|null */
-    private $textPlain;
-
-    /** @var string|null */
-    private $textHtml;
-
     /**
      * __get() is utilized for reading data from inaccessible (protected
      * or private) or non-existing properties.

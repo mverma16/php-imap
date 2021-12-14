@@ -77,9 +77,6 @@ class IncomingMailAttachment
     /** @var string|null */
     private $mimeType;
 
-    /** @var string|null */
-    private $filePath;
-
     /**
      * @return string|false|null
      */
