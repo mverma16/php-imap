@@ -76,8 +76,6 @@ class IncomingMailAttachment
     /** @var DataPartInfo|null */
     private $dataInfo;
 
-    /** @var string|null */
-    private $filePath;
 
     /**
      * @return false|string
